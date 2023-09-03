@@ -1,0 +1,52 @@
+
+/* csss for hva jeg skal forante/style som vil vises i App.jsx */
+
+body {
+  background-color: #b5bdb7;
+  display: flex;
+  justify-content: center; /* Horisontal senterjustering */
+  align-items: center; /* Vertikal senterjustering */
+  height: 100vh; /* Setter høyden til 100% av visningens høyde */
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Stabler innhold vertikalt */
+  align-items: center; /* Sentrer innholdet horisontalt */
+}
+
+
+
+
+.project-card {
+  display: flex;
+  justify-content: space-between;
+  
+  background-color: #b5bdb7;
+}
+
+.square {
+  width: 200px;
+  height: 300px;
+  margin-right: 20px;
+}
+
+.square1 {
+  background-color: #494646;
+  width: 200px;
+  height: 300px;
+  color: aliceblue;
+}
+
+.square2 {
+  background-image: url(img1.jpg); /* Legg til riktig bildesti */
+  background-size: cover; /* Tilpasse bakgrunnsbildet til størrelsen av div'en */
+  background-repeat: no-repeat; /* Hindre gjentakelse av bakgrunnsbildet */
+}
+
+.square3{
+  color: darkblue;
+  background-color: bisque;
+}
+
